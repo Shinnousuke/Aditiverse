@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aditi’s Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+
+  <!-- Font Awesome for Social Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Aditi’s Portfolio</div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#certificates">Certificates</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="section hero">
+      <div class="hero-content">
+        <div class="profile-pic">
+    <img src="profile.jpg" alt="Aditi" />
+</div>
+
+        <div class="intro">
+          <h1>Meet Aditi</h1>
+          <p>Data Science Enthusiast | Creative Problem Solver | Insight‑Driven Storyteller</p>
+          <div class="cta-buttons">
+            <a href="#projects" class="btn filled">View My Work</a>
+            
+          </div>
+          <div class="socials">
+            <a href="https://github.com/Shinnousuke" target="_blank" aria-label="GitHub">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/aditi-sudheer-571776318" target="_blank" aria-label="LinkedIn">
+              <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://instagram.com/adiitiii_10"target="_blank" aria-label="Instagram">
+              <i class="fab fa-instagram"></i>
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="scroll-down-arrow">
+  <span>&#x2193;</span> <!-- Downward arrow -->
+</div>
+
+    </section>
+
+    <!-- Other sections unchanged -->
+    <!-- About -->
+    <section id="about" class="section">
+      <h2>About Me</h2>
+      <p>Now that I have your attention – I’m a data science enthusiast who finds stories in spreadsheets and patterns in chaos.</p>
+      <p>From cleaning messy datasets to designing engaging dashboards, I thrive on solving problems with logic, curiosity, and a hint of creative rebellion.</p>
+      <p>Whether it’s deploying an AI tool or decoding user behavior, I aim to turn complexity into clarity and data into decisions.</p>
+      <p class="fun-fact"><strong>Fun Fact:</strong> When life gave me data, I made dashboards. And then made them <em>interactive</em>.</p>
+    </section>
+
+    <!-- Skills -->
+   <section id="skills" class="section tabbed-skills">
+  <h2>Skills</h2>
+
+  <div class="tabs">
+    <button class="tab-button active" data-tab="technical">🧠 Technical</button>
+    <button class="tab-button" data-tab="tools">🛠 Tools</button>
+    <button class="tab-button" data-tab="soft">💬 Soft Skills</button>
+    <button class="tab-button" data-tab="languages">👨‍💻 Languages</button>
+    <button class="tab-button" data-tab="ai">🤖 AI + GenAI</button>
+  </div>
+
+  <div class="tab-content active" id="technical">
+    <ul>
+      <li>Data Analysis</li>
+      <li>Exploratory Data Analysis</li>
+      <li>Data Visualization</li>
+      <li>Project Management</li>
+      <li>Decision-Making</li>
+      <li>Business Intelligence</li>
+      <li>SEO</li>
+      <li>Web Scraping</li>
+    </ul>
+  </div>
+
+  <div class="tab-content" id="tools">
+    <ul>
+      <li>Excel, PowerPoint, Power BI</li>
+      <li>Tableau</li>
+      <li>SQL</li>
+      <li>Wix, Squarespace</li>
+      <li>GitHub</li>
+      <li>ClickUp</li>
+      <li>Google Ads, Facebook Ads</li>
+      <li>ChatGPT, DALL·E</li>
+    </ul>
+  </div>
+
+  <div class="tab-content" id="soft">
+    <ul>
+      <li>Critical Thinking</li>
+      <li>Problem Solving</li>
+      <li>Creativity</li>
+      <li>Attention to Detail</li>
+      <li>Teamwork</li>
+      <li>Adaptability</li>
+    </ul>
+  </div>
+
+  <div class="tab-content" id="languages">
+    <ul>
+      <li>Python</li>
+      <li>R (Data Analysis with R)</li>
+      <li>SQL</li>
+      <li>HTML/CSS</li>
+    </ul>
+  </div>
+
+  <div class="tab-content" id="ai">
+    <ul>
+      <li>Prompt Engineering</li>
+      <li>ChatGPT for Development</li>
+      <li>Generative AI in Marketing</li>
+      <li>DALL·E Image Generation</li>
+      <li>AI in Data Analytics</li>
+      <li>Copilot Productivity</li>
+    </ul>
+  </div>
+</section>
+
+
+    <!-- Certificates -->
+   <section id="certificates">
+  <h2>Certifications</h2>
+
+  <div class="cert-grid">
+    <div class="cert-card">
+      <h3><span class="icon">📊</span> Data Analysis & Analytics</h3>
+      <ul>
+        <li>Google Data Analytics – Google</li>
+        <li>Analyze Data to Answer Questions – Google</li>
+        <li>Prepare Data for Exploration – Google</li>
+        <li>Process Data from Dirty to Clean – Google</li>
+        <li>Share Data Through the Art of Visualization – Google</li>
+        <li>Exploratory Data Analysis With Python and Pandas – Coursera</li>
+        <li>Data Analysis with R Programming – Google</li>
+        <li>The Path to Insights: Data Models and Pipelines – Google</li>
+      </ul>
+    </div>
+
+    <div class="cert-card">
+      <h3><span class="icon">🧠</span> Machine Learning & AI Foundations</h3>
+      <ul>
+        <li>AI-first Software Engineering – Infosys</li>
+        <li>AWS Academy Graduate - ML Foundations – AWS</li>
+        <li>ML with ChatGPT: Image Classification – Coursera</li>
+        <li>GenAI in Data Analytics – Meta</li>
+        <li>Prompt Engineering Basics – IBM</li>
+        <li>Generative AI for Leaders – Infosys</li>
+        <li>ChatGPT & AI Tools – Skill Nation</li>
+      </ul>
+    </div>
+    <div class="cert-card">
+  <h3><span class="icon">🧾</span> Prompt Engineering & Generative AI</h3>
+  <ul>
+    <li>Automating Image Generation with DALL·E – Skillsoft</li>
+    <li>Content Generation with ChatGPT (GPT-4) – Skillsoft</li>
+    <li>Prompt Engineering for Marketing & Advertising – Coursera</li>
+    <li>Web Scraping With GPT – Coursera</li>
+    <li>The Role of ChatGPT in Future – Skillsoft</li>
+  </ul>
+</div>
+
+<div class="cert-card">
+  <h3><span class="icon">📈</span> Business Intelligence & Visualization</h3>
+  <ul>
+    <li>Foundations of Business Intelligence – Google</li>
+    <li>Basic to Advanced Tableau Dashboard – LinkedIn</li>
+    <li>Tablue – Jobaaj Learnings</li>
+    <li>Power BI – Skill Nation</li>
+    <li>Basic to Advanced Power BI – LinkedIn</li>
+    <li>Microsoft Excel – LinkedIn</li>
+    <li>Microsoft PowerPoint – LinkedIn</li>
+    <li>Dashboards and Reports – Google</li>
+  </ul>
+</div>
+
+<div class="cert-card">
+  <h3><span class="icon">🧮</span> SQL & Data Manipulation</h3>
+  <ul>
+    <li>Concepts in SQL – Coursera</li>
+    <li>Manipulating Data with SQL – Coursera</li>
+    <li>SQL – LinkedIn</li>
+  </ul>
+</div>
+
+<div class="cert-card">
+  <h3><span class="icon">🛠</span> Development & Tools</h3>
+  <ul>
+    <li>Python Fullstack App Development – Coursera</li>
+    <li>Pandas & NumPy for Data Analysis – Coursera</li>
+  </ul>
+</div>
+
+<div class="cert-card">
+  <h3><span class="icon">💼</span> Project & Product Management</h3>
+  <ul>
+    <li>Foundations of Project Management – Google</li>
+    <li>Project Initiation – Google</li>
+    <li>Estimate Activity Durations – Coursera</li>
+    <li>Intro to PM with ClickUp – Coursera</li>
+    <li>Create a Project Charter – Coursera</li>
+  </ul>
+</div>
+
+<div class="cert-card">
+  <h3><span class="icon">📣</span> Marketing & Ads</h3>
+  <ul>
+    <li>Google Ads for Beginners – Coursera</li>
+    <li>Facebook Ads Campaign – Coursera</li>
+  </ul>
+</div>
+
+<div class="cert-card">
+  <h3><span class="icon">🧑‍💼</span> Business Skills</h3>
+  <ul>
+    <li>Data-Driven Decisions – Google</li>
+    <li>Copywriting with ChatGPT – Coursera</li>
+  </ul>
+</div>
+
+<div class="cert-card">
+  <h3><span class="icon">🛡</span> Cybersecurity</h3>
+  <ul>
+    <li>Automate Cybersecurity Tasks – Google</li>
+    <li>Foundations of Cybersecurity – Google</li>
+  </ul>
+</div>
+
+<div class="cert-card">
+  <h3><span class="icon">🌐</span> Web & App Development</h3>
+  <ul>
+    <li>Company Website with Wix – Coursera</li>
+    <li>SEO with Squarespace – Coursera</li>
+  </ul>
+</div>
+
+<div class="cert-card">
+  <h3><span class="icon">🧪</span> Job Simulations</h3>
+  <ul>
+    <li>Deloitte – Data Analytics Simulation – Forage</li>
+    <li>Lloyds Bank – Data Science Simulation – Forage</li>
+  </ul>
+</div>
+
+<div class="cert-card">
+  <h3><span class="icon">🖥️</span> AI Productivity Tools</h3>
+  <ul>
+    <li>Microsoft Copilot – Skill Nation</li>
+  </ul>
+</div>
+
+
+    <!-- Repeat .cert-card blocks for more categories as needed -->
+  </div>
+</section>
+
+    <!-- Projects -->
+     
+    <section id="projects" class="section">
+      <h2 class="section-heading">Featured Projects</h2>
+
+      <div class="proj-grid">
+        <div class="proj-box">
+          <h3>Movie Recommendation System</h3>
+          <p>A smart recommendation system that suggests movies based on user preferences and viewing history</p>
+          <ul class="project-bullets">
+  <li>Python</li>
+  <li>Machine Learning</li>
+  <li>Data Analysis</li>
+</ul>
+
+          <a href="https://github.com/Shinnousuke/Movie-Reccomender" class="btn outline">View Code</a>
+        </div>
+        <div class="proj-box">
+          <h3>Math Expression Evaluator App</h3>
+          <p>An intelligent app that evaluates mathematical expressions with advanced parsing capabilities</p>
+          <ul class="project-bullets">
+  <li>Python</li>
+  <li>Algorithm Design</li>
+  <li>DUI/UX</li>
+</ul>
+          <a href="https://github.com/Shinnousuke/math-expression-extractor" class="btn outline">View Code</a>
+        </div>
+        <div class="proj-box">
+          <h3>AI‑Powered Resume Builder</h3>
+          <p>An AI‑driven tool that helps users create professional resumes with smart suggestions and formatting</p>
+          <ul class="project-bullets">
+  <li>Python</li>
+  <li>AI Integration</li>
+  <li>Web Development</li>
+  <li>User Experience</li>
+</ul>
+          <a href="https://github.com/Shinnousuke/AI-POWERED-RESUME-BUILDER" class="btn outline">View Code</a>
+        </div>
+        <div class="proj-box">
+          <h3>Personal-Expense-Tracker</h3>
+          <p>A simple tool to record, categorize, and monitor daily expenses for better personal budgeting and financial tracking.</p>
+          <ul class="project-bullets">
+  <li>Python</li>
+  <li>Interactive Filters</li>
+  <li>Web Development</li>
+  <li>Data Analysis</li>
+</ul>
+          <a href="https://github.com/Shinnousuke/PERSONAL-EXPENSE-TRACKER" class="btn outline">View Code</a>
+        </div>
+
+        <div class="proj-box">
+          <h3>Credit-Card-Fraud-Detection</h3>
+          <p>A Streamlit app that predicts credit card fraud based on transaction data using a pre-trained machine learning model.</p>
+          <ul class="project-bullets">
+  <li>Python</li>
+  <li>Machine Learning</li>
+  <li>Web Development</li>
+  <li>Fraud Detection</li>
+</ul>
+          <a href="https://github.com/Shinnousuke/creditcard" class="btn outline">View Code</a>
+        </div>
+
+        
+        <div class="proj-box">
+          <h3>E-Commerce sales tracker</h3>
+          <p>A Streamlit app that forecasts future sales using the SARIMAX time series model based on historical data from a CSV.</p>
+          <ul class="project-bullets">
+  <li>Python</li>
+  <li>Time Series Forecasting</li>
+  <li>Web Development</li>
+  <li>Data Analysis</li>
+</ul>
+          <a href="https://github.com/Shinnousuke/creditcard" class="btn outline">View Code</a>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="contact-section">
+  <div class="contact-container">
+    <div class="contact-text">
+      <h2>Get In Touch</h2>
+      <h3>Let's Connect</h3>
+      <p>I'm always interested in new opportunities and collaborations. Feel free to reach out if you'd like to discuss a project or just say hello!</p>
+      <p>📧 <a href="mailto:adichi1004@gmail.com">adichi1004@gmail.com</a></p>
+      <p>🔗 <a href="https://www.linkedin.com/in/aditi-sudheer-571776318" target="_blank">LinkedIn</a></p>
+      <p>💻 <a href="https://github.com/Shinnousuke" target="_blank">GitHub</a></p>
+    </div>
+
+    <form class="contact-form" action="https://formspree.io/f/xanjbnva" method="POST">
+      <input type="text" name="name" placeholder="Name" required />
+      <input type="email" name="email" placeholder="Email" required />
+      <textarea name="message" placeholder="Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </div>
+</section>
+
+  </main>
+
+  <footer>
+    &copy; 2025 Aditi. All rights reserved.
+  </footer>
+</body>
+</html>
